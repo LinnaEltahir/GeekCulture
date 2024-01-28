@@ -1,0 +1,73 @@
+/*Main part*/
+body{
+    background-color: black;
+    color: azure;
+    font-family: Bangers;
+} 
+/*Images- I want a slide show or for all the images to */
+/*Nav bar*/
+.navbar ul{
+  font-family: Staatliches;
+}
+.navbar{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  }
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 100px;
+  
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 100%;
+  background-color: red; /*get rid of the red line under the images!!!!*/
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+  width: 100%;
+  }
+
+  .animated-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+.animated-menu{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.animated-menu:hover{
+ transform: scale(1.1);
+}
+h1{
+  position: absolute; top: 0px; right: 15px;
+}
+
+/*articles of either movies, tv shows, quizes, comics etc*/
+
+/*Links for social media*/
